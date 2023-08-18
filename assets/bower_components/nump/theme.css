@@ -1,0 +1,109 @@
+
+@media (min-width: 979px) and (max-width: 1200px) {
+    .container {padding: 0 20px;}
+}
+
+@media (min-width: 1200px) {
+    .container {padding: 0 30px;}
+}
+
+@media (max-width: 767px) {
+    .container {max-width: 620px;}
+}
+
+@media (max-width: 640px) {
+    .container {max-width: 460px;}
+}
+
+/* Buttons
+/* ========================================================================== */
+
+.btn {
+    border-radius: 3px;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #E0AF62;
+    border-color: #d99f56;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+    color: #ffffff;
+    background-color: #d99f56;
+    border-color: #d99f56;
+}
+
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+    background-color: #d99f56;
+    border-color: #d99f56;
+    color: #ffffff;
+}
+
+.btn-default .badge {
+    color: #ffffff;
+    background-color: #04bf8f;
+}
+
+.btn-warning {
+    border-color: #d58512;
+}
+/* Form / Input / Textarea
+/* ========================================================================== */
+
+.form-control {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #dbdbdb;
+    /*
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    */
+    -webkit-appearance: none; /* ios */
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #000000;
+    -webkit-appearance: none; /* ios */
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    /*
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(2, 191, 144, 0.60);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(2, 191, 144, 0.60);
+    */
+}
+
+.input-group-addon {
+    border-radius: 0;
+    border-color: #e9ecef;
+    background-color: #ffffff;
+}
+
+/* Price table
+/* ========================================================================== */

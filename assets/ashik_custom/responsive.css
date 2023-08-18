@@ -1,0 +1,167 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1280px){
+
+   .category-single-item {
+  width: 27%;
+}
+
+.cell-menu li {
+  margin-right: -1px;
+}
+
+
+.category-single-item {
+  width: 28%;
+}
+.cell-menu a {
+  font-size: 12px;
+}
+
+.calculation-area > p {
+  font-size: 10px;
+}
+.btn-area .btn {
+  padding: 6px 9px;
+}
+.category-area {
+  padding-bottom: 21px;
+}
+
+.fl-width {
+  font-size: 10px;
+}
+.cell-menu li {
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+}
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+ .btn-area .btn {
+  font-size: 15px;
+  padding: 6px 9px;
+}
+.category-single-item {
+  width: 21.9%;
+}
+  .hide-md-device{
+  display: block;
+  visibility: visible;
+}
+ .hide-xs-device{
+  display: none;
+  visibility: hidden;
+}
+.col-md-8.col-xs-12.hide-md-device {
+  margin-bottom: 15px;
+}
+.paddless-col {
+  padding-right: 15px;
+}
+.custom-selected {
+  height: 40px;
+  width: 95.5%;
+}
+
+
+}
+
+/* Mobile Layout:320px. */
+@media only screen and (max-width: 767px) {
+  .btn-area .btn {
+  font-size: 15px;
+  padding: 6px 9px;
+}
+  .hide-md-device{
+  display: block;
+  visibility: visible;
+}
+ .hide-xs-device{
+  display: none;
+  visibility: hidden;
+}
+    .category-single-item {
+  width: 91%;
+}
+.cell-menu li {
+  margin-right: 0;
+}
+.cell-menu a {
+  margin-bottom: 5px;
+}
+.pri-size {
+  width: 100%;
+}
+   .col-md-8.col-xs-12.hide-md-device {
+  margin-bottom: 15px;
+}
+.paddless-col {
+  padding-right: 15px;
+}
+
+.calculation-area > p {
+  font-size: 8px;
+}
+.cell-menu a {
+  font-size: 13px;
+}
+.calculation-area input {
+  font-size: 12px;
+  height: 23px;
+}
+.sl-width {
+  font-size: 12px;
+}
+.flx-width {
+  font-size: 12px;
+}
+.btn-group-custom button {
+  font-size: 14px;
+  padding: 4px 0;
+  width: 31.33%;
+}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+ .btn-area .btn {
+  font-size: 15px;
+  padding: 6px 9px;
+}
+   .category-single-item {
+  width: 45%;
+}
+  .hide-md-device{
+  display: block;
+  visibility: visible;
+}
+ .hide-xs-device{
+  display: none;
+  visibility: hidden;
+}
+.col-md-8.col-xs-12.hide-md-device {
+  margin-bottom: 15px;
+}
+.paddless-col {
+  padding-right: 15px;
+}
+.custom-selected {
+  height: 40px;
+  width: 94.5%;
+}
+.calculation-area > p {
+  font-size: 14px;
+}
+
+.category-single-item {
+  width: 43%;
+}
+
+
+}
+
+
+
